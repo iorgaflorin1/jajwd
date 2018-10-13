@@ -29,9 +29,9 @@ public class Carcasa {
     public Buton butonOri = new Buton('*',this);
     public Buton butonImpartire = new Buton('/',this);
     public Buton butonEgal = new Buton('=',this);
-    private ALU alu = new ALU();    
+    private Alu alu = new Alu();    
 
-    public ALU getAlu() {
+    public Alu getAlu() {
         return alu;
     }
     
