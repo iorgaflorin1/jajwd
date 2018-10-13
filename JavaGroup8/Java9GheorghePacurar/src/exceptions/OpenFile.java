@@ -27,7 +27,7 @@ public class OpenFile {
               String firstLine = r.readLine();
               System.out.println("Am citit din fisier: "+ firstLine);
             } catch (IOException ex) {
-                //Logger.getLogger(OpenFile.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(OpenFile.class.getName()).log(Level.INFO, null, ex);
                 System.out.println("Exceptia contine mesajul: "+ex.getMessage());
             } finally { 
                 try { 
