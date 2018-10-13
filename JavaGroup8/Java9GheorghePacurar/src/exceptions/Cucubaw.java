@@ -14,7 +14,7 @@ public class Cucubaw {
      */
     public static void main(String[] args) {
     try { 
-        ageInMonths(Integer.parseInt(args[0])); 
+        System.out.println("Brebu, uite ca merge:"+ageInMonths(Integer.parseInt(args[0]))); 
     } catch (NumberFormatException e) { 
         System.out.println("first program argument needs to be an int"); 
     }catch (IllegalArgumentException e) { 
