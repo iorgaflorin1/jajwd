@@ -9,7 +9,7 @@ package tdd;
  */
 public class Patrulater extends Plana{
     
-    public static final String PATRULATER= " with four straight sides";
+    public static final String PATRULATER= "with four straight sides";
     
     @Override
     public String getDefinition(){

@@ -9,7 +9,7 @@ package tdd;
  */
 public class PatrulaterDreptunghic extends Patrulater{
     
-    public static final String DREPTUNGHIC = " and four right angles";
+    public static final String DREPTUNGHIC = " and four right angles,";
     
     @Override
     public String getDefinition(){

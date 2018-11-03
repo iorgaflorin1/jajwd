@@ -34,12 +34,4 @@ public class Carcasa {
     public Alu getAlu() {
         return alu;
     }
-    
-    /**
-     * Metoda simteButoane care simte cand s-a apasat un buton si citeste simbolul dupa care
-     * il da mai departe ecranului.
-     */
-    public void simteButoane(){
-        
-    }
 }
