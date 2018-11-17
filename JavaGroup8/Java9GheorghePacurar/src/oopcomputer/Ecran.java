@@ -20,9 +20,9 @@ public class Ecran {
         return afisaj;
     }
 
-    public void setAfisaj(String afisaj) {
+    public void setAfisaj(String noulAfisaj) {
         
-        switch (afisaj) {
+        switch (noulAfisaj) {
             case "+":
                 operatiuneLocala('+');
                 break;
@@ -36,23 +36,35 @@ public class Ecran {
                 operatiuneLocala('/');
                 break;    
             case "=":
+                afisaj = noulAfisaj;
+                System.out.println(afisaj);
+                stapana.getAlu().calculeaza();
+                System.out.println(stapana.getAlu().getRezultat());
                 break;  
             default:    
-                this.afisaj = this.afisaj + afisaj;
-                int operandUnu = stapana.getAlu().getOperandUnu();
+                afisaj = afisaj + noulAfisaj;
                 int afisajInt = Integer.parseInt(afisaj);
+                int operandUnu = stapana.getAlu().getOperandUnu();
+                int operandDoi = stapana.getAlu().getOperandDoi();
+                
                 if(0 == operandUnu || ' ' == stapana.getAlu().getOperator()){
-                    stapana.getAlu().setOperandUnu(Integer.parseInt(this.afisaj));
+                    stapana.getAlu().setOperandUnu(afisajInt);
+                    System.out.println(afisaj);
+                }
+                else if (0 == operandDoi){
+                    stapana.getAlu().setOperandDoi(afisajInt);
+                    System.out.println(afisaj);
+                    
                 }
         }
-        this.afisaj = afisaj;
     }
     /**
      * Private method for computation
      */
     private void operatiuneLocala(char c){
-        stapana.getAlu().setOperandUnu(Integer.getInteger(afisaj));
         stapana.getAlu().setOperator(c);
         afisaj = Character.toString(c);
+        System.out.println(afisaj);
+        afisaj="";
     }
 }

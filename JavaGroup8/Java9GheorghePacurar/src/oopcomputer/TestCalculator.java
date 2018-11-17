@@ -3,8 +3,6 @@
  */
 package oopcomputer;
 
-import java.util.Scanner;
-
 /**
  *
  * @author gheor
