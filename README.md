@@ -1,0 +1,2 @@
+# jajwd
+All java exercises
