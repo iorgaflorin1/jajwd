@@ -25,9 +25,9 @@ public class TestingInstructions {
      */
     public static void main(String[] args) {
         // read values for variables from args
-        afaraPloua = new Boolean(args[0]).booleanValue();
-        afaraNinge = new Boolean(args[0]).booleanValue();
-        afaraEsteFrumos = new Boolean(args[0]).booleanValue();
+        afaraPloua = Boolean.valueOf(args[0]);
+        afaraNinge = Boolean.valueOf(args[0]);
+        afaraEsteFrumos = Boolean.valueOf(args[0]);
         // using if-else
         if(afaraPloua){
             System.out.println(IMI_IAU_UMBRELA);
