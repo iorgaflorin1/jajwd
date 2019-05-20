@@ -1,2 +1,2 @@
-# java8StroescuBogdan
-Homework of Stroescu Bogdan
+# jajwd
+All java exercises
