@@ -27,7 +27,7 @@ public class MyFirstHomework {
         System.out.println("Insert the hypotenuse of the first triangle");
         int theHypotenuseTriangleOne = firstTriangle.nextInt();
         
-        int theHeightTriangleOne = (firstCathetusTriangleOne*secondCatheterTriangleOne)/2;
+        int theHeightTriangleOne = (firstCathetusTriangleOne*secondCatheterTriangleOne)/theHypotenuseTriangleOne;
         System.out.println("The height of the first triangle is: " + theHeightTriangleOne);
         
         int theAreaTriangleOne = (firstCathetusTriangleOne*theHeightTriangleOne)/2;
@@ -47,7 +47,7 @@ public class MyFirstHomework {
         System.out.println("Insert the hypotenuse of the second triangle");
         int theHypotenuseTriangleTwo = secondTriangle.nextInt();
         
-        int theHeightTriangleTwo = (firstCathetusTriangleTwo*secondCatheterTriangleTwo)/2;
+        int theHeightTriangleTwo = (firstCathetusTriangleTwo*secondCatheterTriangleTwo)/theHypotenuseTriangleTwo;
         System.out.println("The height of the second triangle is: " + theHeightTriangleTwo);
         
         int theAreaTriangleTwo = (firstCathetusTriangleTwo*theHeightTriangleTwo)/2;
