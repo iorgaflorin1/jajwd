@@ -8,8 +8,7 @@ package oot;
  * @author gheor
  */
 public class Car {
-    //class contants and enumerations
-    private static final String DEFAULT_CAR_NAME = "Default name";
+    private final String DEFAULT_CAR_NAME = "Default car name";
     public enum CarColors {RED, BLUE, YELLOW, WHITE, BLACK, GREEN};
     private static final short DEFAULT_CAR_SPEED = 100;
     // class attributes
@@ -66,7 +65,4 @@ public class Car {
             speed = finalSpeed;
         }
     }
-    
-    
-    
 }
