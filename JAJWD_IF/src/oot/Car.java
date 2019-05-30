@@ -12,7 +12,7 @@ public class Car {
     public enum CarColors {RED, BLUE, YELLOW, WHITE, BLACK, GREEN};
     private static final short DEFAULT_CAR_SPEED = 100;
     // class attributes
-    String name = DEFAULT_CAR_NAME;
+    private String name = DEFAULT_CAR_NAME;
     // class methods
     public String getName() {
         return name;
