@@ -17,23 +17,14 @@ public class RectanglesAreas {
     public static void main(String[] args) {
         Scanner firstRectangle = new Scanner(System.in);
         
-        
         System.out.println("Insert the lenght of first rectangle: ");
         double lenghtRectangleOne = firstRectangle.nextInt();
         
         System.out.println("Insert the width of the first rectangle");
         double widthRectangleOne = firstRectangle.nextInt();
-         
-        double thePerimeterRectangleOne = 2*(lenghtRectangleOne+widthRectangleOne);
-        //System.out.println("The perimeter of the first rectangle is: " + thePerimeterRectangleOne);
-        
-        double theAreaRectangleOne = (lenghtRectangleOne*widthRectangleOne) ;
-        //System.out.println("The area of the first rectangle is: " + theAreaRectangleOne);
-        
         System.out.println();
-        
+     
         Scanner secondRectangle = new Scanner(System.in);
-        
         
         System.out.println("Insert the lenght of second rectangle: ");
         double lenghtRectangleTwo = firstRectangle.nextInt();
@@ -41,11 +32,6 @@ public class RectanglesAreas {
         System.out.println("Insert the width of the second rectangle");
         double widthRectangleTwo = firstRectangle.nextInt();
          
-        double thePerimeterRectangleTwo = 2*(lenghtRectangleTwo+widthRectangleTwo);
-        //System.out.println("The perimeter of the first rectangle is: " + thePerimeterRectangleOne);
-        
-        double theAreaRectangleTwo = (lenghtRectangleTwo*widthRectangleTwo) ;
-        //System.out.println("The area of the second rectangle is: " + theAreaRectangleOne);
         
         System.out.println();
         System.out.println("Answers: ");
