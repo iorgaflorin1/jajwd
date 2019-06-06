@@ -7,15 +7,13 @@ package oot;
  * Testing OOT concepts
  * @author gheor
  */
-public class TestConcepts { 
-    //static int variabile = 10;
+public class TestConcepts {
         
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
 
-        //Car c = new Car();
         // create three cars to be rented and also saled
         /*
         SaleableAndRentableCar car11B210 = new SaleableAndRentableCar();
@@ -39,7 +37,6 @@ public class TestConcepts {
         car1B211.setDailyRentPrice((double)10.0);
         */
         //using constructor with parameters
-        //SaleableAndRentableCar c = new SaleableAndRentableCar(); ==> Implicit constructir does not exist anymore!!!!
         SaleableAndRentableCar car11B210 = new SaleableAndRentableCar(Car.MERCEDES, Car.Color.RED, (short)230, (double)23000.0,(double)100.0);
         SaleableAndRentableCar car1PH234 = new SaleableAndRentableCar(Car.RENAULT, Car.Color.RED, (short)180, (double)10000.0,(double)50.0);
         SaleableAndRentableCar car1B211 = new SaleableAndRentableCar(Car.DACIA, Car.Color.BLACK, (short)160, (double)500.0,(double)10.0);
@@ -54,7 +51,5 @@ public class TestConcepts {
         for(SaleableAndRentableCar currentCar:cars){
             currentCar.printDetails();
         }
-        /** access a dynamic variable/attribute */
-        // variabile = 20;
     }
 }
