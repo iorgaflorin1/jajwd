@@ -18,9 +18,9 @@ public class TestVisibilityOrAccess {
      */
     public static void main(String[] args) {
         int v = 0;
-        Alpha alphaObiect = new Alpha();
+        Alpha alphaObiect = new Alpha(10,20,30,40);
         alphaObiect.printVariables();
-        Beta betaObject = new Beta();
+        Beta betaObject = new Beta(33,44,55,66);
         betaObject.printVariablesFromAlpha();
         Gamma gammaObject = new Gamma();
         gammaObject.printVariablesFromAlpha();

@@ -12,6 +12,13 @@ public class Alpha {
     protected int protectedVariable = 20;
     private int privateVariable = 30;
     int packageVariable = 40;
+
+    public Alpha(int pV, int prV, int privVar, int packVar) {
+        publicVariable = pV;
+        protectedVariable = prV;
+        privateVariable = privVar;
+        packageVariable = packVar;
+    }
     
     public void printVariables(){
         System.out.println("I am an instance/object of class Alpha: ");

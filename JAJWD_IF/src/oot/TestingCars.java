@@ -3,6 +3,8 @@
  */
 package oot;
 
+import java.util.LinkedList;
+
 /**
  * Testing Cars
  * @author gheor
@@ -34,6 +36,28 @@ public class TestingCars {
         //m.setSpeed((short)230);
         //r.setSpeed((short)180);
         //d.setSpeed((short)160);
+        // create a list of Car
+        LinkedList<Car> listOfCars = new LinkedList<>();
+        // add SaleableCars and RentableCar in the list
+        listOfCars.addFirst(rd);
+        listOfCars.addFirst(sd);
+        listOfCars.addFirst(rr);
+        listOfCars.addFirst(sm);
+        listOfCars.addFirst(rm);
+        listOfCars.addFirst(sr);
+        // primnt all info from list based on concrete type/class
+        for(Car currentCar:listOfCars){
+            Class saleableClass = SaleableCar.class;
+            Class currentCarClass = currentCar.getClass();
+            if(saleableClass==currentCarClass){
+                SaleableCar currentSaleableCar = (SaleableCar)currentCar;
+                System.out.println("Sale price is:" + currentSaleableCar.getSalePrice());
+            }
+            else{
+                RentableCar currentRentableCar = (RentableCar)currentCar;
+                System.out.println("Daily renting price is:" + currentRentableCar.getDailyRentingPrice());
+            }
+        }
         
     } 
 }

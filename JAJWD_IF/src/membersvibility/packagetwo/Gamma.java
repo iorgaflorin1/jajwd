@@ -12,7 +12,7 @@ import membersvibility.packageone.Alpha;
 public class Gamma {
     
     public void printVariablesFromAlpha(){
-        Alpha alphaObject = new Alpha();
+        Alpha alphaObject = new Alpha(10,20,30,40);
         System.out.println("I am an instance/object of class Gamma: ");
         System.out.println("Private variable from Alpha: "+"IS NOT VISIBLE!");
         System.out.println("Public variable from Alpha: " + alphaObject.publicVariable);
