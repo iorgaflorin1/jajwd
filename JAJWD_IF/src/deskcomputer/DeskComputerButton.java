@@ -31,5 +31,4 @@ public class DeskComputerButton {
     public DeskComputerButton(ButtonsMarkups markup){
         this.markup = markup;
     }
-    
 }
