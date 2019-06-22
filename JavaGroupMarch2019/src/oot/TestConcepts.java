@@ -12,7 +12,7 @@ public class TestConcepts {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         // create three cars to be rented and also saled
         /*
@@ -51,5 +51,7 @@ public class TestConcepts {
         for(SaleableAndRentableCar currentCar:cars){
             currentCar.printDetails();
         }
+        // create a Mother with child 
+        Mother motherOne = new Mother(2); 
     }
 }
