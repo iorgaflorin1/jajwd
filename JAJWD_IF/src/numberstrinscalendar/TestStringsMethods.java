@@ -1,7 +1,7 @@
 /*
  * Testing String methods
  */
-package strings;
+package numberstrinscalendar;
 
 import java.time.Clock;
 import java.time.DayOfWeek;
