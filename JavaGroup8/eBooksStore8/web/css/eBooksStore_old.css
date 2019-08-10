@@ -1,0 +1,37 @@
+/*
+Style for eBooksStore
+*/
+/* 
+    Created on : Jul 7, 2018, 6:23:07 PM
+    Author     : gheor
+*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+    background-color: deepskyblue;
+}
+
+td {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.rb{
+    color: firebrick;
+    background-color: lawngreen;
+    text-decoration: blueviolet;
+}
+
+H1{color:blue}

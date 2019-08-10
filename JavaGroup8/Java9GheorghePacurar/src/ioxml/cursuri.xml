@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Fisierul contine toate cursurile
+-->
+
+<cursuri>
+    <curs denumire="HTML 5">
+        <students>20</students>
+        <zi>sambata</zi>
+    </curs>
+    <curs denumire="CSS 5">
+        <students>20</students>
+        <zi>vineri</zi>
+    </curs>    
+    <curs denumire="JAVA">
+        <students>20</students>
+        <zi>luni</zi>
+    </curs>    
+</cursuri>
