@@ -9,10 +9,12 @@ and open the template in the editor.
         <title>Web page title. It will appear on the titlebar of page.</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/mystyle.css">
     </head>
     <body lang="EN-US">
+        <p>
         This is my first text written in HTML file using NetBeans!
-
+        </p>
         This is one line! <br>
         And this is another line - in between we have a <BR> so here will be a next line :)
         <p> This is a new paragraph.</P> <!-- it does not matter small or Caps in HTML -->
@@ -35,13 +37,8 @@ and open the template in the editor.
         </ol>
         Create a table:<br>
         <section>
-         <style scoped>
-          table { border-collapse: collapse; border: solid thick; }
-          colgroup, tbody { border: solid medium; }
-          td { border: solid thin; height: 1.4em; width: 1.4em; text-align: center; padding: 0; }
-         </style>
          <h1>Today's Sudoku</h1>
-         <table>
+         <table class="mytableheader">
              <colgroup><col><col><col></colgroup>
           <colgroup><col><col><col></colgroup>
           <colgroup><col><col><col></colgroup>
