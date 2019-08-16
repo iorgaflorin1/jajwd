@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This is our XML document created in Netbeans before DTD
+-->
+<trainings>
+    <training>
+        <number>1</number>
+        <description> Computer science engineering.</description>
+    </training>
+    <training>
+        <number>2</number>
+        <description> Java fundamentals.</description>
+    </training>    
+    <training>
+        <number>3</number>
+        <description> Web fundamentals.</description>
+    </training>  
+    <training>
+        <number>4</number>
+        <description> Java web components.</description>
+    </training>      
+</trainings>
