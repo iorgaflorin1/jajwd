@@ -3,7 +3,7 @@
  */
 package rectanglesareas;
 import java.util.Scanner;
-import mypackage.RectanglesAreasLibrary;
+//import mypackage.RectanglesAreasLibrary;
 /**
  * Create a program who compare the perimeter and the area of two rectangles and then display who is bigger
  * @author Florin
@@ -36,10 +36,10 @@ public class RectanglesAreas {
         System.out.println();
         System.out.println("Answers: ");
         
-        RectanglesAreasLibrary ob1 = new RectanglesAreasLibrary();
+       /* RectanglesAreasLibrary ob1 = new RectanglesAreasLibrary();
         ob1.biggerPerimeter(lenghtRectangleOne, widthRectangleOne, lenghtRectangleTwo, widthRectangleTwo);
         ob1.biggerArea(lenghtRectangleOne, widthRectangleOne, lenghtRectangleTwo, widthRectangleTwo);
-       
+       */
         
     }
         
